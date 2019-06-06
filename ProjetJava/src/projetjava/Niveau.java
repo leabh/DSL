@@ -21,14 +21,42 @@ public class Niveau {
    id=0;
     
 }*/
-    public Niveau(String m_nom) {
-      
+    public Niveau(int m_id,String m_nom) {
+      id=m_id;
         nom = m_nom;
     }
 
     //ajouter un niveau à la liste des niveau
     public void NouveauNiveau(Niveau N) {
         Liste.add(N);
+    }
+     public int getId() 
+    {
+        return id;
+    }
+
+    public void setId(int id) 
+    {
+        this.id = id;
+    }
+    
+     public ArrayList<Niveau> getListe() 
+    {
+        return Liste;
+    }
+
+    public void setListe(ArrayList<Niveau> m_Liste) 
+    {
+       m_Liste = Liste;
+    }
+     public String getNom() 
+    {
+        return nom;
+    }
+
+    public void setNom(String m_nom) 
+    {
+        m_nom = nom;
     }
 
 }

@@ -17,7 +17,8 @@ public class Discipline {
     private String nom;
     private ArrayList<Discipline> Liste = new ArrayList<>();
 
-    public Discipline(String m_nom) {
+    public Discipline(int m_id,String m_nom) {
+        id=m_id;
         nom = m_nom;
     }
     //Ajouter une Discipline à la liste
@@ -25,5 +26,32 @@ public class Discipline {
     public void ajouterListe(Discipline D) {
 
         Liste.add(D);
+    }
+     public int getId() 
+    {
+        return id;
+    }
+
+    public void setId(int id) 
+    {
+        this.id = id;
+    }
+     public ArrayList<Discipline> getDiscipline() 
+    {
+        return Liste;
+    }
+
+    public void setDiscipline(ArrayList<Discipline> m_Liste) 
+    {
+        m_Liste = Liste;
+    }
+     public String getNom() 
+    {
+        return nom;
+    }
+
+    public void setNom(String m_nom) 
+    {
+        m_nom = nom;
     }
 }

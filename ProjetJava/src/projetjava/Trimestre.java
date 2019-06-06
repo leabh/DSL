@@ -4,6 +4,7 @@
  * and open the template in the editor.
  */
 package projetjava;
+import java.util.HashMap;
 
 /**
  *
@@ -15,6 +16,7 @@ public class Trimestre {
     private int numero;
     private int debut;
     private int fin;
+    private int id_annee;
       //cle secondaire :  AnnéeScolaire.id
 
     /*  public  Trimestre() {
@@ -29,4 +31,45 @@ public class Trimestre {
         debut = m_debut;
         fin = m_fin;
     }
+    
+    public int getId() 
+    {
+        return id;
+    }
+/*
+    public void setId(int id) 
+    {
+        this.id = id;
+    }*/
+    
+    public int getNum() 
+    {
+        return numero;
+    }
+
+    public void setNum(int numero) 
+    {
+        this.numero = numero;
+    }
+    
+    public int getDebut() 
+    {
+        return debut;
+    }
+
+    public void setDebut(int debut) 
+    {
+        this.debut = debut;
+    }
+    
+    public int getFin() 
+    {
+        return fin;
+    }
+
+    public void setFin(int fin) 
+    {
+        this.fin = fin;
+    }
+    
 }

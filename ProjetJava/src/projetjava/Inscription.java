@@ -14,6 +14,34 @@ import java.util.ArrayList;
 public class Inscription {
 
     private int id;
+    private Personne P;
+    private Classe C;
     //clé secondaire : Classe.id, Personne.id
+ public int getId() 
+    {
+        return id;
+    }
 
+    public void setId(int id) 
+    {
+        this.id = id;
+    }
+     public Personne getPersonne() 
+    {
+        return P;
+    }
+
+    public void setPersonne(Personne m_P) 
+    {
+        m_P = P;
+    }
+    public Classe getClasse() 
+    {
+        return C;
+    }
+
+    public void setClasse(Classe m_C) 
+    {
+        m_C = C;
+    }
 }

@@ -20,4 +20,35 @@ public class Evaluation {
         note = m_note;
         appreciation = m_appreciation;
     }
+
+    public Evaluation() {
+      note= 0;
+      appreciation= "";
+    }
+     public int getId() 
+    {
+        return id;
+    }
+
+    public void setId(int id) 
+    {
+        this.id = id;
+    }
+
+        public double getNote() {
+            return note;
+        }
+        public void setNote(double m_note) {
+           m_note=note;
+        }
+        public String getAppreciation() 
+    {
+        return appreciation;
+    }
+
+    public void setAppreciation(String appreciation) 
+    {
+        this.appreciation = appreciation;
+    }
+    
 }
