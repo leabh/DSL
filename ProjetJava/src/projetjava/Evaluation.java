@@ -39,7 +39,7 @@ public class Evaluation {
             return note;
         }
         public void setNote(double m_note) {
-           m_note=note;
+           note=m_note;
         }
         public String getAppreciation() 
     {

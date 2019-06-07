@@ -5,6 +5,8 @@
  */
 package projetjava;
 
+import java.util.ArrayList;
+
 /**
  *
  * @author Lea
@@ -14,6 +16,7 @@ public class Classe {
   private String nom;
   private AnneeScolaire A;
   private Niveau N;
+  private ArrayList<Personne> Eleves; // tableau d'eleve par classe
   //cle secondaire :  Ecole.id, Niveau.id, AnnéeScolaire.id
   public Classe(int m_id,String m_nom){
   id=m_id;
@@ -35,7 +38,7 @@ public class Classe {
 
     public void setNom(String m_nom) 
     {
-        m_nom = nom;
+        nom = m_nom;
     }
     public AnneeScolaire getAnneeScolaire() 
     {
@@ -44,7 +47,7 @@ public class Classe {
 
     public void setAnneeScolaire(AnneeScolaire m_A) 
     {
-        m_A = A;
+        A = m_A;
     }
     public Niveau getNiveau() 
     {
@@ -53,7 +56,7 @@ public class Classe {
 
     public void setNiveau(Niveau m_N) 
     {
-        m_N = N;
+        N = m_N;
     }
   
 }

@@ -33,7 +33,7 @@ public class Inscription {
 
     public void setPersonne(Personne m_P) 
     {
-        m_P = P;
+        P = m_P;
     }
     public Classe getClasse() 
     {
@@ -42,6 +42,6 @@ public class Inscription {
 
     public void setClasse(Classe m_C) 
     {
-        m_C = C;
+        C = m_C;
     }
 }

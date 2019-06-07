@@ -32,7 +32,7 @@ public class Enseignement {
 
     public void setPersonne(Personne m_P) 
     {
-        m_P = P;
+        P = m_P;
     }
     public Classe getClasse() 
     {
@@ -41,7 +41,7 @@ public class Enseignement {
 
     public void setClasse(Classe m_C) 
     {
-        m_C = C;
+        C = m_C;
     }
     
      public Discipline getDiscipline() 
@@ -51,7 +51,7 @@ public class Enseignement {
 
     public void setDiscipline(Discipline m_D) 
     {
-        m_D = D;
+        D = m_D;
     }
     
     

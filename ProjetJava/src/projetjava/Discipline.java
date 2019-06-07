@@ -43,7 +43,7 @@ public class Discipline {
 
     public void setDiscipline(ArrayList<Discipline> m_Liste) 
     {
-        m_Liste = Liste;
+        Liste = m_Liste;
     }
      public String getNom() 
     {
@@ -52,6 +52,6 @@ public class Discipline {
 
     public void setNom(String m_nom) 
     {
-        m_nom = nom;
+        nom = m_nom;
     }
 }

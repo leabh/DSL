@@ -43,7 +43,7 @@ id=m_id;
 
     public void setNom(String m_nom) 
     {
-        m_nom = nom;
+        nom = m_nom;
     }
      public String getPrenom() 
     {
@@ -52,7 +52,7 @@ id=m_id;
 
     public void setPrenom(String m_prenom) 
     {
-        m_prenom = prenom;
+        prenom = m_prenom;
     }
      public String getType() 
     {
@@ -61,7 +61,7 @@ id=m_id;
 
     public void setType(String m_type) 
     {
-        m_type = type;
+        type = m_type;
     }
 
 }

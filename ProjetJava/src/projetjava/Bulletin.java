@@ -78,7 +78,7 @@ public class Bulletin {
 
     public void setAnneeScolaire(AnneeScolaire m_A) 
     {
-        m_A = A;
+        A = m_A;
     }
     public ArrayList<DetailBulletin> getDetailBulletin() 
     {
@@ -87,7 +87,7 @@ public class Bulletin {
 
     public void setAnneeScolaire(ArrayList<DetailBulletin> m_DB) 
     {
-        m_DB = DetailBulletin;
+        DetailBulletin = m_DB;
     }
     
 }

@@ -48,6 +48,8 @@ public class DetailBulletin {
     }
     
     }
+    
+    //methode pour calculer la moyenne
     public double Moyenne(){
         double moyenne;
         double tampon=0;
@@ -66,7 +68,7 @@ public class DetailBulletin {
 
     public void settabeval(ArrayList<Evaluation> m_evaluations) 
     {
-        m_evaluations = evaluations;
+       evaluations =  m_evaluations;
     }
      public int getId() 
     {
@@ -84,7 +86,7 @@ public class DetailBulletin {
 
     public void setNbNote(int m_nbNotes) 
     {
-        m_nbNotes = nbNotes;
+        nbNotes =  m_nbNotes;
     }
     
      public String getAppreciation() 
